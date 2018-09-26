@@ -1,0 +1,89 @@
+.card {
+  display: inline-block;
+  flex: 1;
+  position: relative;
+  min-width: 300px;
+  height: 10rem;
+  margin: .1rem;
+  border: 1.2px dashed #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #3979B7;
+  overflow: hidden;
+}
+
+.card2 {
+  display: inline-block;
+  flex: 1;
+  position: relative;
+  min-width: 300px;
+  height: 10rem;
+  margin: .1rem;
+  border: 1.2px dashed #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #F59C00;
+  overflow: hidden;
+}
+
+.card__icon {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 50px;
+  line-height: 2rem;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+.card__circle {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: all 0.4s ease-in-out;
+}
+.card > p {
+  position: relative;
+  top: 50%;
+  margin: 0 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transform: translateY(-50%);
+  transition: all 0.2s ease-in-out;
+}
+.card--alt-1 {
+  background-color: #7E3F82;
+}
+.card--alt-2 {
+  background-color: #39B764;
+}
+.card--alt-3 {
+  background-color: #CC3F82;
+}
+.card--alt-4 {
+  background-color: #EF7C2B;
+}
+.card:hover .card__circle {
+  transform: scale(70);
+  opacity: 0.5;
+}
+.card:hover > p,
+.card:hover .card__icon {
+  color: #45556E;
+}
+
+.container {
+  display: ;
+  flex-flow: row wrap;
+  align-content: stretch;
+}

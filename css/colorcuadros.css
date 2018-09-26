@@ -1,0 +1,30 @@
+
+
+@import url(<a class="vglnk" href="http://fonts.googleapis.com/css?family=Open+Sans" rel="nofollow"><span>http</span><span>://</span><span>fonts</span><span>.</span><span>googleapis</span><span>.</span><span>com</span><span>/</span><span>css</span><span>?</span><span>family</span><span>=</span><span>Open</span><span>+</span><span>Sans</span></a>);
+
+html,body{
+  color:white;
+  font-family:'Opens Sans',helvetica;  
+  height:100%;
+  width:100%;
+  margin: 0px;
+}
+
+.portada{
+   background: url(<a class="vglnk" href="http://desarrollofrontend.com/wp-content/uploads/2014/09/flatdiseno1.png" rel="nofollow"><span>http</span><span>://</span><span>desarrollofrontend</span><span>.</span><span>com</span><span>/</span><span>wp</span><span>-</span><span>content</span><span>/</span><span>uploads</span><span>/</span><span>2014</span><span>/</span><span>09</span><span>/</span><span>flatdiseno1</span><span>.</span><span>png</span></a>) no-repeat fixed center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100%;
+   width: 100% ;
+   text-align: center;
+
+}
+.text{
+  margin: 30px 0px 30px 0px;    
+  padding: 30px;
+ background: rgba(255, 138, 46, 0.9);
+  display: inline-block;
+}
+

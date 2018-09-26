@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Dax:400,900");
+html {
+  background: url(../win8/images/wallpaper/2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+
+.middle {
+  width: 100%;
+  text-align: center;
+
+  /* Made by */
+}
+.middle h1 {
+  font-family: "Dax", sans-serif;
+  color: #fff;
+}
+.middle input[type="checkbox"] {
+  display: none;
+}
+.middle input[type="checkbox"]:checked + .box2 {
+  background-color: #5BC500;
+}
+.middle input[type="checkbox"]:checked + .box2 span {
+  color: white;
+  transform: translateY(50px);
+}
+.middle input[type="checkbox"]:checked + .box2 span:before {
+  transform: translateY(0px);
+  opacity: 1;
+}
+/*.middle .box {
+  width: 310px;
+  height: 310px;
+  background-color: #007095;
+  border: 1.3px dashed #FFFFFF;
+  transition: all 250ms ease;
+  will-change: transition;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  font-family: "Dax", sans-serif;
+  font-weight: 500;
+}*/
+
+.middle .box2 {
+  border: 1.2px dashed #FFFFFF;
+  display: inline-block;
+  flex: 1;
+  position: relative;
+  cursor: pointer;
+  min-width: 208px;
+  height: 8rem;
+  /*width: 200px;
+  height: 100px;*/
+  margin: .3rem;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(135deg, #F59C00 20%, #F59C00 80%);
+  overflow: hidden;
+}
+
+
+
+.middle .box2:active {
+  transform: translateY(10px);
+}
+.middle .box2 span {
+  position: absolute;
+  transform: translate(0, 50px);
+  left: 0;
+  right: 0;
+  transition: all 300ms ease;
+  font-size: 1.5em;
+  user-select: none;
+  color: #FFFFFF;
+}
+.middle .box2 span:before {
+  font-size: 1.2em;
+  font-family: FontAwesome;
+  display: line;
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  font-weight: normal;
+  color: white;
+}
+.middle .front-end span:before {
+  content: '\f121';
+}
+.middle .back-end span:before {
+  content: '\f0f4';
+}
+.middle p {
+  color: #fff;
+  font-family: "Dax", sans-serif;
+  font-weight: 400;
+}
+.middle p span:after {
+  content: '\f0e7';
+  font-family: FontAwesome;
+  color: yellow;
+}
+
+

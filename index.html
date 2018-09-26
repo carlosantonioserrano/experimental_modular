@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="login-form/css/style.css">
+
+  
+</head>
+<script type="text/javascript">
+
+function texto_aleatorio(){ 
+   var textos = new Array() 
+   textos[0] = "El trabajo que nunca se empieza es el que tarda más en finalizarse..." 
+   textos[1] = "El 80% del éxito se basa simplemente en insistir..." 
+   textos[2] = "Tú no eres tu currículum, eres tu trabajo..." 
+   textos[3] = "La motivación nos impulsa a comenzar y el hábito nos permite continuar..." 
+   textos[4] = "Las oportunidades no son producto de la casualidad, mas bien son resultado del trabajo..." 
+
+   aleat = Math.random() * (textos.length) 
+   aleat = Math.floor(aleat) 
+
+document.write(textos[aleat]) 
+}
+</script>
+        
+<body>
+
+  
+<html>
+  <body>
+
+    <canvas id="canvas"></canvas>
+    <div id="login-box"><img class="profile" src="login-form/img/user.png" alt="User"/>
+      <h2>Hola!!!...Soy JARVIS...Identificate!!!</h2>
+      <form name="myForm" onsubmit="return validateForm();" method="post" action="control.php">
+        <br><p>Usuario</p>
+        <input type="text" name="usr" placeholder="Ingresa tu usuario asignado" required="required"/>
+         
+        <input type="submit"  value="Validar usuario"/><br><br>
+      <div  style="color:#FFFFFF;"><script language=javascript>texto_aleatorio()</script></div>
+      </form>
+    </div>
+  
+    
+  </body>
+
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
